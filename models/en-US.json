@@ -1,0 +1,32 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"hey duggee stick song",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"StickIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "stick",
+                        "stick stick"
+                    ]
+                }
+            ]
+        }
+    }
+}
